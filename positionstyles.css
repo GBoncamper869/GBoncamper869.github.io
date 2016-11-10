@@ -1,6 +1,17 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
-    .red1 { 
+*{
+    box-sizing: border-box;
+    
+}    
+
+.content {
+    width: 80%;
+    border: 1px solid;
+    height: 450px;
+    display: flex;
+}
+.red1 { 
     width: 100px; 
     height: 100px; 
     background-color: red; 
@@ -152,10 +163,12 @@
     width: 200px; 
     height: 200px; 
     background-color: green;
-        float:left
+        float:left;
+            margin: 15px;
      } 
     .yellow6 {
     width: 600px; 
+        
     
     background-color: gold; 
     } 
