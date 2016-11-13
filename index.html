@@ -9,6 +9,7 @@
             #content {
                 width: 90%;
                 max-width: 940px;
+                
         margin:  auto;
              }
             body{
@@ -25,12 +26,14 @@
      }
             nav {
          background-color: #16591d;
+                width: 940px;
+                height:120px;
                 
      }  
             a {
                 color: white;
                 text-decoration: none;
-                padding: 15px;
+              
             }
             
             #top-row{
@@ -41,10 +44,10 @@
             #middle-row {
                 background-color: ivory;
                     color: #0000ff
-                        padding: 15px;
+                        
                     
             }
-            #top-row, #middle-row {
+            #top-row, #middle-row, #footer {
     display: flex;
                 flex-flow: row wrap;
 }  
@@ -56,7 +59,7 @@
             p{
                 line-height: 1.5;
             }
-            #top-row, #middle-row {
+            #top-row, #middle-row, #footer {
                 display: flex;
             }
             section{
@@ -65,12 +68,24 @@
             
             #middle-row {
                 padding: 15px;
+                
             }
-            .leftcol{width: 48%;
+            
+                .leftcol{width: 48%;
                 flex: 1 0 15em;
+                margin: .5em;
             }
             .rightcol{width:48%;
                 flex: 1 0 15em;
+                margin: .5em;
+            }
+            .social{
+                flex: 1 0 15em;
+                margin: 0;
+                text-align: center;
+                float: right;
+                
+                
             }
             H2{
                 color:darkgreen;
@@ -80,10 +95,19 @@
             #banner img {
                 width: 100%
             }
+            
             #bottom-row {
                 text-align: center;
                 width: 60%;
                 margin: 0 auto;
+            }
+            #footer {
+                color: white;
+                background-color: #16591d;
+                width: 940px;
+                    height: 55px;
+                justify-content: flex-start;
+                    flex-flow: row wrap;
                 
             }
             
@@ -94,7 +118,7 @@
     </head>
     <body> 
         <div id="content">
-       <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo"> 
+       <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo" width= 115px height= 100px> 
    
         <section>
            
@@ -113,7 +137,7 @@
          </ul> 
             </nav>
             
-    <img class='fullwidth'src="http://brothert.net/dryoar/images/river-evening-wide.jpg" alt= "Dry Oar boting widebanner">
+    <img class='fullwidth'src="http://brothert.net/dryoar/images/river-evening-wide.jpg" alt= "Dry Oar boting widebanner" width= 940px height=250px>
      </section>
         
         <section id='top-row'>
@@ -145,16 +169,21 @@
         <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
         </section>
             
-           <a href="https://www.facebook.com/pages/Rafting/112692215410513?fref=ts&rf=109863625703163"target="_blank"><img src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png"/></a>
+          <section id="footer"> 
+              <p>&copy; 2016 Dry Oar || Gizelle Boncamper <p>
+              <div class="social"> 
+              <a href="https://www.facebook.com/pages/Rafting/112692215410513?fref=ts&rf=109863625703163"target="_blank"><img src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png"/></a>
             
             <a href="https://www.instagram.com/?hl=en"target="_blank"><img src="https://byui-cit.github.io/wdd100/images/icons/color/instagram.png"/></a>
 
             <a href="https://twitter.com/?lang=en"target="_blank"><img src="https://byui-cit.github.io/wdd100/images/icons/color/twitter.png"/></a>
+                  
+                  </div>
             
 
-<p>&copy; 2016 Dry Oar<p>
-        <p>&copy; 2016 Dry Oar || Gizelle Boncamper <p>
-            </div>
+        
+          </section>  
+        </div>
     </body>
 
 </html>
