@@ -1,0 +1,153 @@
+ @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+            #content {
+                width: 100%;
+                max-width: 940px;
+                margin:  auto;
+             }
+
+            body{
+                font-family: Arial,Helvetica, sans-serif;
+                background-color: #FFECCA;
+            }
+            h1 {color: #16591d}
+            
+            .fullwidth {
+                width=100%
+            }
+            
+            img {max-width:100%
+     }
+#logo { background-color: azure;
+position: relative;
+height:110px;
+    border-style: solid;
+    margin-left: 25px;
+}
+
+*{box-sizing: border-box}
+            nav {
+         background-color: #16591d;
+                width: 100%;
+               height: 50px;
+                font-size: 1.1em;
+                line-height: 3em;
+                margin-top: -100px;
+                
+                
+     }  
+            nav > ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+                flex-flow: row wrap;
+                margin: 0;
+                margin-left: 75px;
+                text-align: center
+}
+
+nav li{
+    flex: 1 0 6em;
+}
+
+nav a:link, nav a:visited {
+    color: #E7C24F;
+    text-decoration:  none;
+    
+}
+
+nav a: hover {
+    text-decoration: none;
+    
+}
+            a {
+                color: white;
+                text-decoration: none;
+              
+            }
+            
+            #top-row{
+                background-color: ;
+                
+                
+            }
+            #middle-row {
+                background-color: ivory;
+                    color: #000000;
+                        padding: 15px;
+                 width: 100%;
+                    
+            }
+            #top-row, #middle-row, #footer {
+    display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+}  
+            
+            h1,h2,h3,h4,h5,h6{
+                font-family: "Rock Salt", "Palatino Linotype", serif;
+            }
+            
+            p{
+                line-height: 1.5;
+            }
+            #top-row, #middle-row, #footer {
+                display: flex;
+            }
+            section{
+                padding: 15px;
+               
+            }
+            
+            
+           
+            
+                .leftcol{
+                    width: 48%;
+                flex: 1 0 15em;
+                margin: .5em;
+            }
+            .rightcol{
+                width:48%;
+                flex: 1 0 15em;
+                margin: .5em;
+            }
+            .social{
+                display: flex;
+                align-items: center;
+                flex: 1 0 15em;
+                margin: 0;
+                
+                float: right;
+                justify-content: space-between
+                     
+            }
+
+  
+            H2{
+                color:darkgreen;
+                line-height: 1.2;
+                margin-bottom: .2em;
+            }
+            #banner img {
+                width: 100%
+            }
+            
+            #bottom-row {
+                text-align: center;
+                width: 60%;
+                margin: 0 auto;
+                padding: 5em 0;
+            }
+            #footer {
+                color: white;
+                background-color: #16591d;
+                width: 100%;
+                    height: 55px;
+                justify-content: flex-start;
+                    flex-flow: row wrap;
+                
+            }
+            
+            h3{
+                color: dodgerblue;
+            }
