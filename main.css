@@ -127,7 +127,7 @@ nav a:hover {
   
             H2{
                 color:darkgreen;
-                line-height: 1.2;
+                line-height: 1.75;
                 margin-bottom: .2em;
             }
             #banner img {
@@ -153,3 +153,6 @@ nav a:hover {
             h3{
                 color: dodgerblue;
             }
+
+
+input[type=text]{ width: 275px; } 
